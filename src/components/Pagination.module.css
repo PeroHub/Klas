@@ -1,0 +1,33 @@
+.container {
+margin-top: 15px;
+margin-bottom: 30px;
+display: flex;
+overflow-x: scroll;
+padding: 20px;
+}
+
+.container::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
+    background: #fff;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #2dd4bf;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px #fff;
+}
+
+
+
+.number {
+    cursor: pointer;
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    background-color: #2dd4bf;
+   
+}
+
+.text {
+    color: #fff !important;
+}
