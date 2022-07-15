@@ -73,6 +73,10 @@
     border: none;
 }
 
+.headerInput div input:focus {
+    outline: 1px solid #2dd4bf;
+}
+
 .cellInput1 {
     min-width: 60px;
     
